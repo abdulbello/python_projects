@@ -2,7 +2,7 @@ from typing import Dict, Any
 
 import openpyxl
 
-path = '/Users/abdulhakeembello/Downloads/inventory.xlsx'
+path = './'
 
 xl_file = openpyxl.load_workbook(path)
 xl_file_list = xl_file['Sheet1']
